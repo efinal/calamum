@@ -25,7 +25,11 @@
       <div id="content-outer">
         <h1>REST API v.<%= @version %></h1>
         <div class="content api-docs">
-          <% @resources.each do |name, endpoints| %>
+        <%= @description %>
+        </div>
+        <hr/>
+        <div class="content api-docs">
+          <% @resources.sort.map do |name, endpoints| %>
             <table>
               <caption>
                 <strong><%= name.capitalize %></strong>
