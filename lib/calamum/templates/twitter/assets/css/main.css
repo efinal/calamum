@@ -603,7 +603,6 @@ ul.vertical-tabs-list li {
 }
 .parameter .param {
     display: block;
-    width: 220px;
     color: #333;
     font-weight: bold;
 }
