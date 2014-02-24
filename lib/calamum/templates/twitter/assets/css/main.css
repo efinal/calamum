@@ -603,7 +603,6 @@ ul.vertical-tabs-list li {
 }
 .parameter .param {
     display: block;
-    float: left;
     width: 220px;
     color: #333;
     font-weight: bold;
@@ -614,7 +613,7 @@ ul.vertical-tabs-list li {
     font-weight: normal;
 }
 .parameter p {
-    margin-left: 220px;
+    margin-left: 0px;
 }
 div.field {
     margin-bottom: 2em;
