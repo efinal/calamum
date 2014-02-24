@@ -39,7 +39,7 @@
               <% @resource.params.each do |key, content| %>
                 <div class="parameter">
                   <span class="param"><%= key %>
-                    <span><%= content['required'] ? 'required' : 'optional' %>, type: <%= content['type'] %></span>
+                    <span>Rules: <%= content['rules'] %></span>
                   </span>
                   <p><%= content['description'] %></p>
                 </div>
